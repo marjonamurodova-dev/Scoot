@@ -45,8 +45,7 @@
       font-size: 24px;
       line-height: 28px;
       font-weight: bold;
-      letter-spacing: -0.89px;
-      color: $dark-navy;
+      color: $dark__navy;
       text-align: start;
     }
     &__title-text {
@@ -56,7 +55,7 @@
       line-height: 28px;
       font-weight:100%;
       letter-spacing:0px;
-      color: $dim-gray;
+      color: $dim__gray;
       text-align:start;
     }
   }
@@ -86,7 +85,7 @@
       align-items: center;
       gap: 40px;
     }
-    &__box {
+    &__boxs {
         width: 100%;
       display: flex;
       flex-direction: column;
@@ -94,7 +93,7 @@
       align-items: center;
       gap: 24px;
     }
-    &__image {
+    &__images {
       width: 56px;
       height: 56px;
     }
@@ -111,7 +110,7 @@
       line-height: 28px;
       font-weight: bold;
       letter-spacing: -0.89px;
-      color: $dark-navy;
+      color: $dark__navy;
       text-align: start;
     }
     &__title-text {
@@ -121,7 +120,7 @@
       line-height: 25px;
       font-weight:100%;
       letter-spacing:0px;
-      color: $dim-gray;
+      color: $dim__gray;
       text-align:start;
     }
   }
@@ -177,7 +176,7 @@
       line-height: 28px;
       font-weight: bold;
       letter-spacing: -0.89px;
-      color: $dark-navy;
+      color: $dark__navy;
       text-align: start;
     }
     &__title-text {
@@ -187,7 +186,7 @@
       line-height: 25px;
       font-weight:100%;
       letter-spacing:0px;
-      color: $dim-gray;
+      color: $dim__gray;
       text-align:start;
     }
   }
@@ -243,7 +242,7 @@
       line-height: 28px;
       font-weight: bold;
       letter-spacing: -0.89px;
-      color: $dark-navy;
+      color: $dark__navy;
       text-align: start;
     }
     &__title-text {
@@ -253,7 +252,7 @@
       line-height: 25px;
       font-weight:100%;
       letter-spacing:0px;
-      color: $dim-gray;
+      color: $dim__gray;
       text-align:start;
     }
   }
@@ -294,7 +293,7 @@
       line-height: 28px;
       font-weight: bold;
       letter-spacing: -0.89px;
-      color: $dark-navy;
+      color: $dark__navy;
       text-align: center;
     }
     &__title-text {
@@ -304,7 +303,7 @@
       line-height: 25px;
       font-weight:100%;
       letter-spacing:0px;
-      color: $dim-gray;
+      color: $dim__gray;
       text-align: center;
     }
   }
