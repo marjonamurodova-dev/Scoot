@@ -1,0 +1,124 @@
+.sign {
+  margin-top: 200px;
+  padding-top: 102px;
+  padding-bottom: 102px;
+  width: 100%;
+  background-image: url("../../icons/sign__background.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  &__container {
+    @include df-row-between-center;
+  }
+  &__title {
+    width: 457px;
+    text-align: start;
+    font-family: "Space Mono";
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14px;
+    color: $white;
+  }
+  &__icon-box {
+    @include df-row-center-center;
+    gap: 18px;
+  }
+  &__icon-link {
+    transition: 200ms ease all;
+    &:active {
+      transition: 200ms ease all;
+      opacity: 0.5;
+    }
+  }
+  &__icon-image {
+    width: 182px;
+    height: 56px;
+    vertical-align: middle;
+  }
+}
+@media (max-width: 1024px) {
+  .sign {
+    margin-top: 104px;
+    padding-top: 62px;
+    padding-bottom: 62px;
+    width: 100%;
+    background-image: url("../../icons/sign__tb-background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &__container {
+      padding-left: 39px;
+      padding-right: 39px;
+      @include df-column-center-center;
+      gap: 40px;
+    }
+    &__title {
+      width: 457px;
+      text-align: center;
+      font-family: "Space Mono";
+      font-size: 48px;
+      line-height: 48px;
+      letter-spacing: -2.14px;
+      color: $white;
+    }
+    &__icon-box {
+      @include df-row-center-center;
+      gap: 12.86px;
+    }
+    &__icon-link {
+      transition: 200ms ease all;
+      &:active {
+        transition: 200ms ease all;
+        opacity: 0.5;
+      }
+    }
+    &__icon-image {
+      width: 130px;
+      height: 40px;
+      vertical-align: middle;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .sign {
+    margin-top: 120px;
+    padding-top: 88px;
+    padding-bottom: 88px;
+    width: 100%;
+    background-image: url("../../icons/sign__mb-background.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    &__container {
+      padding-left: 24px;
+      padding-right: 24px;
+      @include df-column-center-center;
+      gap: 40px;
+    }
+    &__title {
+      width: 100%;
+      text-align: center;
+      font-family: "Space Mono";
+      font-size: 32px;
+      line-height: 32px;
+      letter-spacing: 1.43px;
+      color: $white;
+    }
+    &__icon-box {
+      @include df-row-center-center;
+      gap: 12.86px;
+    }
+    &__icon-link {
+      transition: 200ms ease all;
+      &:active {
+        transition: 200ms ease all;
+        opacity: 0.5;
+      }
+    }
+    &__icon-image {
+      vertical-align: middle;
+      width: 130px;
+      height: 40px;
+    }
+  }
+}

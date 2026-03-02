@@ -1,0 +1,153 @@
+.values {
+        margin-top: 120px;
+		&__container {
+            @include df-column-center-center;
+            gap: 103px;
+		}
+		&__title {
+            margin-bottom: 27px;
+            font-family: "space mono";
+            font-weight: bold;
+            font-size: 48px;
+            line-height:48px;
+            letter-spacing:-2.14px;
+            color: $dark__navy;
+		}
+		&__bottom-box {
+               @include df-row-between-start;
+		}
+		&__mini-bottom-boxes {
+               @include df-column-center-center;
+		}
+		&__images {
+            width: 240px;
+            height: 295px;
+            margin-bottom:32px;
+		}
+		&__titles {
+            text-align: center;
+              margin-bottom: 27px;
+            font-family: "space mono";
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: -1.09px;
+            color: $dark__navy;
+        }
+		&__texts {
+            text-align: center;
+            width:350px;
+            font-family: "lexend deca";
+            font-weight:400;
+            font-size: 15px;
+            line-height: 25px;
+            letter-spacing: 0.1px;
+            color: $dim__grey;
+		}
+}
+@media (max-width:1024px) {
+    .values {
+        margin-top: 120px;
+		&__container {
+            @include df-column-center-center;
+            padding-left: 39px;
+            padding-right:39px;
+            gap: 105px;
+		}
+		&__title {
+            margin-bottom: 27px;
+            font-family: "space mono";
+            font-weight: bold;
+            font-size: 48px;
+            line-height:48px;
+            letter-spacing:-2.14px;
+            color: $dark__navy;
+		}
+		&__bottom-box {
+               @include df-column-center-center;
+               gap: 55px;
+		}
+		&__mini-bottom-boxes {
+               @include df-column-center-center;
+		}
+		&__images {
+            width: 240px;
+            height: 295px;
+            margin-bottom:32px;
+		}
+		&__titles {
+            text-align: center;
+              margin-bottom: 27px;
+            font-family: "space mono";
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: -1.09px;
+            color: $dark__navy;
+        }
+		&__texts {
+            text-align: center;
+            width: 457px;
+            font-family: "lexend deca";
+            font-weight:400;
+            font-size: 15px;
+            line-height: 25px;
+            letter-spacing: 0.1px;
+            color: $dim__grey;
+		}
+}
+
+}
+@media (max-width: 767px) {
+    .values {
+        margin-top: 120px;
+		&__container {
+            @include df-column-center-center;
+            padding-left: 24px;
+            padding-right: 24px;
+            gap: 64px;
+		}
+		&__title {
+            margin-bottom: 27px;
+            font-family: "space mono";
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 32px;
+            letter-spacing: 1.43px;
+            color: $dark__navy;
+		}
+		&__bottom-box {
+               @include df-column-center-center;
+               gap: 56px;
+		}
+		&__mini-bottom-boxes {
+               @include df-column-center-center;
+		}
+		&__images {
+            width: 240px;
+            height: 288px;
+            margin-bottom: 16px;
+		}
+		&__titles {
+            text-align: center;
+              margin-bottom: 27px;
+            font-family: "space mono";
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+            letter-spacing: -1.09px;
+            color: $dark__navy;
+        }
+		&__texts {
+            text-align: center;
+            width: 100%;
+            font-family: "lexend deca";
+            font-weight:400;
+            font-size: 15px;
+            line-height: 25px;
+            letter-spacing: 0.1px;
+            color: $dim__grey;
+		}
+}
+
+}

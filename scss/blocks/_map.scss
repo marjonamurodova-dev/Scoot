@@ -1,0 +1,103 @@
+.map {
+  margin-top: 120px;
+  &__container {
+    @include df-column-center-center;
+    gap: 0;
+  }
+  &__image {
+    object-fit: contain;
+    display: inline-block;
+    width: 100%;
+    height: 543px;
+  }
+  &__tb-image {
+    display: none;
+    width: 100%;
+    height: 337px;
+  }
+  &__mb-image {
+    display: none;
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+  }
+  &__cart-boxes {
+    display: none;
+    gap: 16px;
+  }
+  &__cart-texts {
+    text-align: center;
+    width: 311px;
+    background-color: $light__yellow;
+    padding: 22px 100px 22px 100px;
+  }
+}
+@media (max-width: 1024px) {
+  .map {
+    margin-top: 144px;
+    &__container {
+      @include df-column-center-center;
+      padding-left: 39px;
+      padding-right: 39px;
+      gap: 0;
+    }
+    &__image {
+      display: none;
+    }
+    &__tb-image {
+      object-fit: contain;
+      display: inline-block;
+      width: 100%;
+      height: 337px;
+    }
+    &__mb-image {
+      display: none;
+      object-fit: cover;
+      width: 100%;
+      height: 200px;
+    }
+    &__cart-boxes {
+      display: none;
+      gap: 16px;
+    }
+    &__cart-texts {
+      text-align: center;
+      width: 311px;
+      background-color: $light__yellow;
+      padding: 22px 100px 22px 100px;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .map {
+    margin-top: 72px;
+    &__container {
+      @include df-column-center-center;
+      padding-left: 24px;
+      padding-right: 24px;
+      gap: 40px;
+    }
+    &__image {
+      display: none;
+    }
+    &__tb-image {
+      display: none;
+    }
+    &__mb-image {
+      object-fit: contain;
+      display: inline-block;
+      width: 100%;
+      height: 200px;
+    }
+    &__cart-boxes {
+      @include df-column-center-center;
+      gap: 16px;
+    }
+    &__cart-texts {
+      text-align: center;
+      width: 311px;
+      background-color: $light__yellow;
+      padding: 22px 100px 22px 100px;
+    }
+  }
+}

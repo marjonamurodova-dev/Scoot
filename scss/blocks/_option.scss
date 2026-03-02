@@ -1,0 +1,119 @@
+.option {
+  margin-top: 120px;
+  &__container {
+    @include df-column-center-center;
+    gap: 24px;
+  }
+  &__boxes {
+    width: 100%;
+    @include df-row-between-center;
+    background-color: $gray;
+    padding: 34px 40px 34px 40px;
+    gap: 0px;
+  }
+  &__text-boxes {
+    @include df-column-center-start;
+    gap: 8px;
+  }
+  &__titles {
+    font-family: "Space Mono";
+    text-align: start;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1.07px;
+    color: $dark__navy;
+  }
+  &__texts {
+    font-family: "Lexend Deca";
+    text-align: start;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: $dark__navy;
+  }
+  &__buttons {
+    @include template__button;
+  }
+}
+@media (max-width: 1024px) {
+  .option {
+    margin-top: 120px;
+    &__container {
+      @include df-column-center-center;
+      gap: 16px;
+      padding-right: 39px;
+      padding-left: 39px;
+    }
+    &__boxes {
+      width: 689px;
+      @include df-row-between-center;
+      background-color: $gray;
+      padding: 34px 48px 34px 48px;
+      gap: 0px;
+    }
+    &__text-boxes {
+      @include df-column-center-start;
+      gap: 8px;
+    }
+    &__titles {
+      font-family: "Space Mono";
+      text-align: start;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: -1.07px;
+      color: $dark__navy;
+    }
+    &__texts {
+      font-family: "Lexend Deca";
+      text-align: start;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 0px;
+      color: $dark__navy;
+    }
+    &__buttons {
+      @include template__button;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .option {
+    margin-top: 74px;
+    &__container {
+      @include df-column-center-center;
+      gap: 16px;
+      padding-left: 24px;
+      padding-right: 24px;
+    }
+    &__boxes {
+      width: 100%;
+      @include df-column-center-center;
+      background-color: $gray;
+      padding: 36px 32px 32px 32px;
+      gap: 16px;
+    }
+    &__text-boxes {
+      @include df-column-center-center;
+      gap: 4px;
+    }
+    &__titles {
+      font-family: "Space Mono";
+      text-align: center;
+      font-size: 18px;
+      line-height: 24px;
+      letter-spacing: -0.8px;
+      color: $dark__navy;
+    }
+    &__texts {
+      font-family: "Lexend Deca";
+      text-align: center;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 0px;
+      color: $dark__navy;
+    }
+    &__buttons {
+      @include template__button;
+    }
+  }
+}
