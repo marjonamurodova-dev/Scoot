@@ -1,0 +1,122 @@
+.message {
+  margin-top: 120px;
+  &__container {
+    @include df-row-between-center;
+    gap: 0;
+  }
+  &__title {
+    font-family: "Space Mono";
+    text-align: start;
+    width: 302px;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14px;
+    color: $dark__navy;
+  }
+  &__text {
+    font-family: "Lexend Deca";
+    text-align: start;
+    width: 445px;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: $dim__grey;
+  }
+  &__button {
+    @include template__button;
+  }
+}
+@media (max-width: 1150px) {
+  .message {
+    margin-top: 64px;
+    &__container {
+      @include df-column-center-center;
+      gap: 40px;
+    }
+    &__title {
+      font-family: "Space Mono";
+      text-align: center;
+      width: 457px;
+      font-size: 48px;
+      line-height: 48px;
+      letter-spacing: -2.14px;
+      color: $dark__navy;
+    }
+    &__text {
+      font-family: "Lexend Deca";
+      text-align: center;
+      width: 573px;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 0px;
+      color: $dim__grey;
+    }
+    &__button {
+      @include template__button;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .message {
+    margin-top: 64px;
+    &__container {
+      @include df-column-center-center;
+      gap: 40px;
+      padding-right: 39px;
+      padding-left: 39px;
+    }
+    &__title {
+      font-family: "Space Mono";
+      text-align: center;
+      width: 457px;
+      font-size: 48px;
+      line-height: 48px;
+      letter-spacing: -2.14px;
+      color: $dark__navy;
+    }
+    &__text {
+      font-family: "Lexend Deca";
+      text-align: center;
+      width: 573px;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 0px;
+      color: $dim__grey;
+    }
+    &__button {
+      @include template__button;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .message {
+    margin-top: 72px;
+    &__container {
+      @include df-column-center-center;
+      gap: 32px;
+      padding-right: 24px;
+      padding-left: 24px;
+    }
+    &__title {
+      font-family: "Space Mono";
+      text-align: center;
+      width: 311px;
+      font-size: 32px;
+      line-height: 32px;
+      letter-spacing: -1.43px;
+      color: $dark__navy;
+    }
+    &__text {
+      font-family: "Lexend Deca";
+      text-align: center;
+      width: 311px;
+      font-size: 15px;
+      line-height: 25px;
+      letter-spacing: 0px;
+      color: $dim__grey;
+    }
+    &__button {
+      @include template__button;
+    }
+  }
+}
